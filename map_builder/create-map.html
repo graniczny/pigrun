@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Map Create</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+
+  <body>
+    <a id="downloadAnchorElem" style="display:none"></a>
+    <element>
+      <div class="game-viewport">
+        <table cellspacing="0" cellpadding="0">
+          <tbody id="main-table"></tbody>
+        </table>
+      </div>
+    </element>
+    <div class="sprites">
+      <div class="handle_buttons">
+        <form>
+          <label>Dodaj mapę</label>
+          <input type="file" />
+          <button type="submit">Dodaj</button>
+        </form>
+        <img src="./plus.jpg" id="add-fields" alt="Dodaj wybraną grafikę" />
+        <img src="./x.png" id="remove-select" alt="Usuń wybrane pola" />
+        <img
+          src="./download.png"
+          id="generate-json"
+          alt="Pobierz wygenerowaną mape"
+        />
+      </div>
+      <div class="map_fields"></div>
+    </div>
+    <script src="mapCreator.js"></script>
+  </body>
+</html>

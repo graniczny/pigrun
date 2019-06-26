@@ -1,0 +1,15 @@
+{
+  "name": "pig-run",
+  "version": "1.0.0",
+  "description": "PigRun - pure JavaScript 2D platform game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafal Graniczny",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
