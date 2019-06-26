@@ -8,9 +8,9 @@ Please use Chrome or Mozzila to run the Pig ;) (not tested on any other browsers
 
 # PigRun keymap
 
-A - move left
-D - move right
-Space - jump
+- A - move left
+- D - move right
+- Space - jump
 
 # Map creator instructions
 
