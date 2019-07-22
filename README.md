@@ -32,6 +32,7 @@ Tips to make map creation faster and easier:
 
 # TODO
 
+- refactor
 - add background items that pig doesn't collide with
 - add interactive objects (food etc.)
 - add time/score/bonuses
